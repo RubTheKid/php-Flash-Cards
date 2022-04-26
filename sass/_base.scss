@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@600&family=Comic+Neue:wght@300;700&family=Fredoka:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Akshar', Courier, sans-serif;
+    font-size: 42px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: $body-bg;
+    @include flexCenter;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
